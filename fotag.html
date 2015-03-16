@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fotag!</title>
+    <link rel="stylesheet" href="css/fotag.css"/>
+</head>
+<body>
+
+<div id="app-container">
+
+    <div id="header">
+        <div id="title">
+            <h1>Fotag!</h1>
+            Import, organize, and rate your photos!
+        </div>
+    </div>
+
+    <div style="clear:both"></div>
+    <div id="img_enlarged">
+        <p><img src="icons/close.png" alt="x" id="close_btn"></p>
+    </div>
+    <div id="content">
+    </div>
+
+    <div style="clear:both"></div>
+
+    <div id="footer">
+
+        <!-- Keep this here so TAs can run your unit tests -->
+        <div id="unit-tests">
+
+            <!-- This button is for marking purposes to test your architecture. Do not remove it-->
+            <button class="marking-button">Mark Me!</button>
+
+            <a href="unit_tests.html">Run Unit Tests</a>
+        </div>
+        <div id="choose-file"></div>
+    </div>
+
+                                      <!-- Templates-->
+    <template id="view_template">
+        <img src="icons/grid1.png" alt="grid view" class="icon icon_grid">
+        <img src="icons/list2.png" alt="list view" class="icon icon_list">
+    </template>
+
+    <template id="star_template">
+        <img src="icons/star-empty.png" alt="empty star" class="icon">
+        <img src="icons/star-empty.png" alt="empty star" class="icon">
+        <img src="icons/star-empty.png" alt="empty star" class="icon">
+        <img src="icons/star-empty.png" alt="empty star" class="icon">
+        <img src="icons/star-empty.png" alt="empty star" class="icon">
+    </template>
+
+    <template id="file-chooser">
+        <input type="file" class="files-input" name="file_results[]" multiple />
+        <output id="list"></output>
+    </template>
+
+    <template id="image">
+        <img src="" alt="" class="image">
+    </template>
+</div>
+
+<script src="js/ext/underscore.js"></script>
+<script src="js/model.js"></script>
+<script src="js/view.js"></script>
+<script src="js/fotag.js"></script>
+<script src="js/markers_code.js"></script>
+</body>
+</html>
