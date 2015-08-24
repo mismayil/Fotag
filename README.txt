@@ -1,9 +1,7 @@
-The following third-party libraries/code are provided:
+Fotag
 
-- Mocha (http://mochajs.org/)
-- Chai (http://chaijs.com/)
-- Sinon (http://sinonjs.org/)
-- Sinon-Chai (https://github.com/domenic/sinon-chai)
-- Underscore (http://underscorejs.org/)
+Image-rating application. You can add pictures and rate them. 
 
-See the websites for their respective licenses.
+
+Used libraries:
+- underscore.js
